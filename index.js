@@ -6,7 +6,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateReadme = ()
+// const generateReadme = ();
 
     
 
@@ -20,7 +20,7 @@ const questions = [];
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(filename, data) {
     fs.writeFile(filename, data, "utf8", (error) =>  error ? console.error(error) : console.log('Success!'));
 }
 
@@ -44,22 +44,34 @@ function init() {
           .then((answer) => {
             const {name} = answer;
            console.log(answer);
-           templateHTML = `<!DOCTYPE html>
-                    <html lang="en">
-                    <head>
-                        <meta charset="UTF-8">
-                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <title>Mini Project</title>
-                    </head>
-        
-                    <body>
-                    <h3>${name}</h3>
-                        
-                    </body>
-                    </html>`
+           templateREADME = `# README GENERATOR
+
+
+           ## Description
+           ${name}
+           
+           ## Table of Contents
+           
+           
+           ## Installation
+           
+           
+           ## Usage
+           
+           
+           ## License
+           
+           
+           ## Contributing
+           
+           
+           ## Tests
+           
+           
+           ## Questions`
                     
-                    writeToFile('README.md', templateHTML);
-                    console.log(templateHTML);
+                    writeToFile('README.md', templateREADME);
+                    console.log(templateREADME);
         })
         
         }
