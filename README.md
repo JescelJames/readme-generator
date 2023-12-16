@@ -1,19 +1,23 @@
-# jdleff
+# SPARTAN PROJECT
 
 ## Description                          
-lkasdfljdljksdf           
+TO KILL BAD DUDES           
            
 ## Installation
-laksdjflkjsdlkfjslkdfjsd
+INSTALL MY SHIELD AND ARMOR
            
 ## Usage
-jfkdld
+TO PROTECT AND SERVE
 
 ## Contributing 
-ldllelelee  ee  
+MANY...  
 
 ## Tests 
-dlkfje  e
+I'VE BEEN TO WAR
 
 ## Questions
-For any additional questions, contact me at: https://github.com/jesceljames
+For any additional questions, contact me at: 
+
+ Github: https://github.com/jesceljames 
+
+ Email: jesceljames@gmail.com

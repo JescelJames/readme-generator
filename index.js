@@ -49,6 +49,12 @@ const questions = [
     name: 'github',
     message: 'What is your github name: ',
   },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email: ',
+  },
+
 ];
 
 
@@ -90,7 +96,8 @@ function init() {
               usage, 
               contribution, 
               test,
-              github
+              github,
+              email
             } = answer;
 
            console.log(answer);
@@ -114,7 +121,9 @@ ${contribution}
 ${test}
 
 ## Questions
-For any additional questions, contact me at: https://github.com/${github}`
+For any additional questions, contact me at: 
+\n Github: https://github.com/${github} 
+\n Email: ${email}`
           //  ## License
            
            
