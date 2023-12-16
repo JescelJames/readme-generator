@@ -1,25 +1,7 @@
-# README GENERATOR
+# README file
 
-
-           ## Description
-           James
+## Description                          
+I want to readme           
            
-           ## Table of Contents
-           
-           
-           ## Installation
-           
-           
-           ## Usage
-           
-           
-           ## License
-           
-           
-           ## Contributing
-           
-           
-           ## Tests
-           
-           
-           ## Questions
+## Installation
+you can suck a big fat sausage

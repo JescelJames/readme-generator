@@ -13,7 +13,24 @@ const fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+  {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?',
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Give the description of your project?',
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Provide installation instructions',
+  },
+
+];
 
 
 
@@ -31,47 +48,51 @@ function writeToFile(filename, data) {
 // TODO: Create a function to initialize app
 function init() {
   
-        inquirer
-          .prompt([
-            {
-              type: 'input',
-              name: 'name',
-              message: 'What is your name?',
-            },
-
+        inquirer.prompt (questions)
+          // .prompt([
+           
+          //   {
+          //     type: 'input',
+          //     name: 'title',
+          //     message: 'What is the title of your project?',
+          //   },
+          //   {
+          //     type: 'input',
+          //     name: 'description',
+          //     message: 'Give the description of your project?',
+          //   },
         
-          ])
+          // ])
           .then((answer) => {
-            const {name} = answer;
+            const {title, description, installation} = answer;
            console.log(answer);
-           templateREADME = `# README GENERATOR
+           templateREADME = 
 
+`# ${title}
 
-           ## Description
-           ${name}
+## Description                          
+${description}           
            
-           ## Table of Contents
-           
-           
-           ## Installation
+## Installation
+${installation}`
            
            
-           ## Usage
+          //  ## Usage
            
            
-           ## License
+          //  ## License
            
            
-           ## Contributing
+          //  ## Contributing
            
            
-           ## Tests
+          //  ## Tests
            
-           
-           ## Questions`
+                  //  ## Table of Contents   
+          //  ## Questions`
                     
                     writeToFile('README.md', templateREADME);
-                    console.log(templateREADME);
+                    // console.log(templateREADME);
         })
         
         }
