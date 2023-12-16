@@ -1,4 +1,7 @@
-# readme file
+# README file
 
 ## Description                          
-how can I believe you
+I want to readme           
+           
+## Installation
+you can suck a big fat sausage

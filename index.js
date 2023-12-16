@@ -24,8 +24,11 @@ const questions = [
     name: 'description',
     message: 'Give the description of your project?',
   },
-
-  
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Provide installation instructions',
+  },
 
 ];
 
@@ -61,19 +64,17 @@ function init() {
         
           // ])
           .then((answer) => {
-            const {title, description} = answer;
+            const {title, description, installation} = answer;
            console.log(answer);
            templateREADME = 
 
 `# ${title}
 
 ## Description                          
-${description}`           
+${description}           
            
-          //  ## Table of Contents
-           
-           
-          //  ## Installation
+## Installation
+${installation}`
            
            
           //  ## Usage
@@ -87,7 +88,7 @@ ${description}`
            
           //  ## Tests
            
-           
+                  //  ## Table of Contents   
           //  ## Questions`
                     
                     writeToFile('README.md', templateREADME);
