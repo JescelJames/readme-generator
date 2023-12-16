@@ -46,7 +46,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'question',
+    name: 'github',
     message: 'Questions....',
   },
 ];
