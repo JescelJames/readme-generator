@@ -1,18 +1,23 @@
-# readme
+# SPARTAN PROJECT
 
 ## Description                          
-asdfasdfasd           
+TO KILL BAD DUDES           
            
 ## Installation
-
+INSTALL MY SHIELD AND ARMOR
            
 ## Usage
-
+TO PROTECT AND SERVE
 
 ## Contributing 
-asdfds  
+MANY...  
 
 ## Tests 
-fff
+I'VE BEEN TO WAR
 
 ## Questions
+For any additional questions, contact me at: 
+
+ Github: https://github.com/jesceljames 
+
+ Email: jesceljames@gmail.com
