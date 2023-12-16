@@ -13,7 +13,21 @@ const fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+  {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?',
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Give the description of your project?',
+  },
+
+  
+
+];
 
 
 
@@ -31,20 +45,21 @@ function writeToFile(filename, data) {
 // TODO: Create a function to initialize app
 function init() {
   
-        inquirer
-          .prompt([
-            {
-              type: 'input',
-              name: 'title',
-              message: 'What is the title of your project?',
-            },
-            {
-              type: 'input',
-              name: 'description',
-              message: 'Give the description of your project?',
-            },
+        inquirer.prompt (questions)
+          // .prompt([
+           
+          //   {
+          //     type: 'input',
+          //     name: 'title',
+          //     message: 'What is the title of your project?',
+          //   },
+          //   {
+          //     type: 'input',
+          //     name: 'description',
+          //     message: 'Give the description of your project?',
+          //   },
         
-          ])
+          // ])
           .then((answer) => {
             const {title, description} = answer;
            console.log(answer);
