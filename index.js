@@ -107,10 +107,10 @@ ${installation}
 ## Usage
 ${usage}
 
-## Contribution Guidelines   
+## Contributing 
 ${contribution}  
 
-## Test Instructions  
+## Tests 
 ${test}
 
 ## Questions
