@@ -35,43 +35,48 @@ function init() {
           .prompt([
             {
               type: 'input',
-              name: 'name',
-              message: 'What is your name?',
+              name: 'title',
+              message: 'What is the title of your project?',
             },
-
+            {
+              type: 'input',
+              name: 'description',
+              message: 'Give the description of your project?',
+            },
         
           ])
           .then((answer) => {
-            const {name} = answer;
+            const {title, description} = answer;
            console.log(answer);
-           templateREADME = `# README GENERATOR
+           templateREADME = 
 
+`# ${title}
 
-           ## Description
-           ${name}
+## Description                          
+${description}`           
            
-           ## Table of Contents
-           
-           
-           ## Installation
+          //  ## Table of Contents
            
            
-           ## Usage
+          //  ## Installation
            
            
-           ## License
+          //  ## Usage
            
            
-           ## Contributing
+          //  ## License
            
            
-           ## Tests
+          //  ## Contributing
            
            
-           ## Questions`
+          //  ## Tests
+           
+           
+          //  ## Questions`
                     
                     writeToFile('README.md', templateREADME);
-                    console.log(templateREADME);
+                    // console.log(templateREADME);
         })
         
         }
