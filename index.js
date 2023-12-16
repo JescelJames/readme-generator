@@ -47,12 +47,19 @@ const questions = [
   {
     type: 'input',
     name: 'github',
-    message: 'What is your github name: ',
+    message: 'What is your github profile name: ',
   },
   {
     type: 'input',
     name: 'email',
     message: 'What is your email: ',
+  },
+  {
+    type: 'checkbox',
+    message: 'Please select applicable licenses',
+    name: 'license',
+    choices: ['MIT License', 'GNU General Public License', 
+              'Apache License 2.0', 'Creative Commons License'],
   },
 
 ];
@@ -74,20 +81,7 @@ function writeToFile(filename, data) {
 function init() {
   
         inquirer.prompt (questions)
-          // .prompt([
-           
-          //   {
-          //     type: 'input',
-          //     name: 'title',
-          //     message: 'What is the title of your project?',
-          //   },
-          //   {
-          //     type: 'input',
-          //     name: 'description',
-          //     message: 'Give the description of your project?',
-          //   },
-        
-          // ])
+
           .then((answer) => {
             const {
               title, 
@@ -97,13 +91,14 @@ function init() {
               contribution, 
               test,
               github,
-              email
+              email, 
+              license
             } = answer;
 
            console.log(answer);
            templateREADME = 
 
-`# ${title}
+`# ${title}        ${license}
 
 ## Description                          
 ${description}           
@@ -124,12 +119,6 @@ ${test}
 For any additional questions, contact me at: 
 \n Github: https://github.com/${github} 
 \n Email: ${email}`
-          //  ## License
-           
-           
-
-           
-           
 
            
                   //  ## Table of Contents   
