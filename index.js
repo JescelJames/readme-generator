@@ -29,6 +29,21 @@ const questions = [
     name: 'installation',
     message: 'Provide installation instructions',
   },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Provide usage...',
+  },
+  {
+    type: 'input',
+    name: 'contribution',
+    message: 'Contribution....',
+  },
+  {
+    type: 'input',
+    name: 'test',
+    message: 'Test Instructions....',
+  },
 
 ];
 
@@ -64,7 +79,7 @@ function init() {
         
           // ])
           .then((answer) => {
-            const {title, description, installation} = answer;
+            const {title, description, installation, usage, contribution, test} = answer;
            console.log(answer);
            templateREADME = 
 
@@ -74,19 +89,24 @@ function init() {
 ${description}           
            
 ## Installation
-${installation}`
+${installation}
            
-           
-          //  ## Usage
-           
-           
+## Usage
+${usage}
+
+## Contribution Guidelines   
+${contribution}  
+
+## Test Instructions  
+${test}`
+
           //  ## License
            
            
-          //  ## Contributing
+
            
            
-          //  ## Tests
+
            
                   //  ## Table of Contents   
           //  ## Questions`
