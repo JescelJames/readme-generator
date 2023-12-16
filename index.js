@@ -44,7 +44,11 @@ const questions = [
     name: 'test',
     message: 'Test Instructions....',
   },
-
+  {
+    type: 'input',
+    name: 'question',
+    message: 'Questions....',
+  },
 ];
 
 
@@ -79,7 +83,16 @@ function init() {
         
           // ])
           .then((answer) => {
-            const {title, description, installation, usage, contribution, test} = answer;
+            const {
+              title, 
+              description, 
+              installation, 
+              usage, 
+              contribution, 
+              test,
+              question
+            } = answer;
+
            console.log(answer);
            templateREADME = 
 
@@ -98,8 +111,10 @@ ${usage}
 ${contribution}  
 
 ## Test Instructions  
-${test}`
+${test}
 
+## Questions
+${question}`
           //  ## License
            
            
@@ -109,7 +124,7 @@ ${test}`
 
            
                   //  ## Table of Contents   
-          //  ## Questions`
+
                     
                     writeToFile('README.md', templateREADME);
                     // console.log(templateREADME);
