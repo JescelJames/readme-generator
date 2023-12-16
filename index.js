@@ -29,7 +29,26 @@ const questions = [
     name: 'installation',
     message: 'Provide installation instructions',
   },
-
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Provide usage...',
+  },
+  {
+    type: 'input',
+    name: 'contribution',
+    message: 'Contribution....',
+  },
+  {
+    type: 'input',
+    name: 'test',
+    message: 'Test Instructions....',
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'Questions....',
+  },
 ];
 
 
@@ -64,7 +83,16 @@ function init() {
         
           // ])
           .then((answer) => {
-            const {title, description, installation} = answer;
+            const {
+              title, 
+              description, 
+              installation, 
+              usage, 
+              contribution, 
+              test,
+              question
+            } = answer;
+
            console.log(answer);
            templateREADME = 
 
@@ -74,22 +102,29 @@ function init() {
 ${description}           
            
 ## Installation
-${installation}`
+${installation}
            
-           
-          //  ## Usage
-           
-           
+## Usage
+${usage}
+
+## Contributing 
+${contribution}  
+
+## Tests 
+${test}
+
+## Questions
+${question}`
           //  ## License
            
            
-          //  ## Contributing
+
            
            
-          //  ## Tests
+
            
                   //  ## Table of Contents   
-          //  ## Questions`
+
                     
                     writeToFile('README.md', templateREADME);
                     // console.log(templateREADME);

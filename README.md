@@ -1,7 +1,18 @@
-# README file
+# readme
 
 ## Description                          
-I want to readme           
+asdfasdfasd           
            
 ## Installation
-you can suck a big fat sausage
+
+           
+## Usage
+
+
+## Contributing 
+asdfds  
+
+## Tests 
+fff
+
+## Questions
