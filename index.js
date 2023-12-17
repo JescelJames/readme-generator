@@ -48,6 +48,12 @@ const questions = [
     name: 'email',
     message: 'What is your email: ',
   },
+  {
+    type: 'checkbox',
+    message: 'Which license do you have',
+    name: 'license',
+    choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache Licence 2.0', 'None'],
+  },
 
 ];
 
@@ -69,13 +75,14 @@ inquirer.prompt (questions)
               contribution, 
               test,
               github,
-              email
+              email,
+              license
             } = answer;
 
 console.log(answer);
 
 templateREADME = 
-`# ${title}
+`# ${title} ${license}
 
 ## Description                          
 ${description}           

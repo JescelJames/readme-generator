@@ -1,19 +1,19 @@
-# jfjfjd
+# Spartan Project MIT License
 
 ## Description                          
-ldkfjd           
+Destroy Bad Dudes.           
            
 ## Installation
-laksdjflksajdfkjsd
+I will install blades through the heart of my opponent
            
 ## Usage
-l;kasjdflkjsdflkjsad
+usage of their skulls, to feed to my dogs.
 
 ## Contributing 
-jfkd  
+I contribute to their death.  
 
 ## Tests 
-;dldldld
+I will test their skills before I destroy them.
 
 ## Questions
 For any additional questions, contact me at: 
