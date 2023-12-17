@@ -1,19 +1,19 @@
-# ljksdfljksdfa        Apache License 2.0
+# SPARTAN PROJECT
 
 ## Description                          
-lkasjdlkfjsad           
+TO KILL BAD DUDES           
            
 ## Installation
-aslfekjsaldkjfsadf
+INSTALL MY SHIELD AND ARMOR
            
 ## Usage
-lkasjdfljdsff
+TO PROTECT AND SERVE
 
 ## Contributing 
-lkasjdf  
+MANY...  
 
 ## Tests 
-;lkasdjf
+I'VE BEEN TO WAR
 
 ## Questions
 For any additional questions, contact me at: 
