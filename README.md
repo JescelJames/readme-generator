@@ -1,7 +1,7 @@
 # My Fourth Challenge: Create a Readme Generator
 
 ## Description
-This challenge helps create
+This challenge helps the user create a readme.md file using command prompt
 
 
 ### This is my first Node js challenge: To help the user generate a Readme for a project. 
