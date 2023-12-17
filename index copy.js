@@ -72,44 +72,43 @@ function init() {
         inquirer.prompt (questions)
 
           .then((answer) => {
-            const templateREADME = generateMarkdown(answer);
-            // const {
-            //   title, 
-            //   description, 
-            //   installation, 
-            //   usage, 
-            //   contribution, 
-            //   test,
-            //   github,
-            //   email,
-            //   license
-            // } = answer;
+            const {
+              title, 
+              description, 
+              installation, 
+              usage, 
+              contribution, 
+              test,
+              github,
+              email,
+              license
+            } = answer;
 
            console.log(answer);
-//            templateREADME = 
+           templateREADME = 
 
-// templateREADME = 
-// `# ${title} ${license}
+templateREADME = 
+`# ${title} ${license}
 
-// ## Description                          
-// ${description}           
+## Description                          
+${description}           
            
-// ## Installation
-// ${installation}
+## Installation
+${installation}
            
-// ## Usage
-// ${usage}
+## Usage
+${usage}
 
-// ## Contributing 
-// ${contribution}  
+## Contributing 
+${contribution}  
 
-// ## Tests 
-// ${test}
+## Tests 
+${test}
 
-// ## Questions
-// For any additional questions, contact me at: 
-// \n Github: https://github.com/${github} 
-// \n Email: ${email}`
+## Questions
+For any additional questions, contact me at: 
+\n Github: https://github.com/${github} 
+\n Email: ${email}`
 
                     const filename = `${answer.title.toLowerCase().split(' ').join('')}.md`;
                     writeToFile(filename, templateREADME);
