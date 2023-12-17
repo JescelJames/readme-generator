@@ -76,7 +76,7 @@ function init() {
               contribution, 
               test,
               github,
-              email, 
+              email,
               license
             } = answer;
 
