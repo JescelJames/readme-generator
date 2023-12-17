@@ -29,3 +29,5 @@ https://stackoverflow.com/questions/67013842/trying-to-place-license-badge-withi
 license Link: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 https://www.npmjs.com/package/inquirer
+
+https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061
