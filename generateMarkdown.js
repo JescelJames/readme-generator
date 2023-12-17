@@ -40,7 +40,23 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  const licenseLink = renderLicenseLink(license);
+ 
+  if (license && license !== 'None') {
+    return `## License
+This project is licensed under the ${license}. 
+\n For more information, go to ${licenseLink}`;
+
+  }
+  return ''; 
+};
+        
+    
+    
+    
+
+
 
 
 
@@ -48,7 +64,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(answer) {
 
   const licenseBadge = renderLicenseBadge(answer.license);
-  const licenseLink = renderLicenseLink(answer.license);
+  // const licenseLink = renderLicenseLink(answer.license);
+  const licenseSection = renderLicenseSection(answer.license);
   
   return `# ${answer.title}   ${licenseBadge}
 
@@ -73,9 +90,10 @@ function generateMarkdown(answer) {
   \n Github: https://github.com/${answer.github} 
   \n Email: ${answer.email}
   
-## License
-This project is licensed under the ${answer.license}. 
-\n For more information, go to ${licenseLink}`
+  ${licenseSection}`
+// ## License
+// This project is licensed under the ${answer.license}. 
+// \n For more information, go to ${licenseLink}`
 ;
 };
 
