@@ -1,4 +1,4 @@
-# TEST MIT License
+# Spartan MIT License
 
 ## Description                          
 test           
@@ -18,6 +18,6 @@ test
 ## Questions
 For any additional questions, contact me at: 
 
- Github: https://github.com/jesceljames@gmail.com 
+ Github: https://github.com/jesceljames 
 
  Email: jesceljames@gmail.com

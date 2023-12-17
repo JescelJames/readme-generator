@@ -49,7 +49,7 @@ const questions = [
     message: 'What is your email: ',
   },
   {
-    type: 'checkbox',
+    type: 'list',
     message: 'Which license do you have',
     name: 'license',
     choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache Licence 2.0', 'None'],
@@ -59,6 +59,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(filename, data) {
+        
     fs.writeFile(filename, data, "utf8", (error) =>  error ? console.error(error) : console.log('Success!'));
 }
 
@@ -105,18 +106,9 @@ ${test}
 For any additional questions, contact me at: 
 \n Github: https://github.com/${github} 
 \n Email: ${email}`
-          //  ## License
-           
-           
 
-           
-           
-
-           
-                  //  ## Table of Contents   
-
-                    
-                    writeToFile('README.md', templateREADME);
+                    const filename = `${answer.title.toLowerCase().split(' ').join('')}.md`;
+                    writeToFile(filename, templateREADME);
                     // console.log(templateREADME);
         })
         
