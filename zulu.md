@@ -1,23 +1,27 @@
-# zulu 
+# zulu   ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+
 
   ## Description                          
-  test           
+  a           
              
   ## Installation
-  test
+  a
              
   ## Usage
-  test
+  a
   
   ## Contributing 
-  test  
+  a  
   
   ## Tests 
-  test
+  a
   
   ## Questions
   For any additional questions, contact me at: 
   
- Github: https://github.com/test 
+ Github: https://github.com/jesceljames 
   
- Email: test
+ Email: jesceljames@gmail.com
+  
+## License
+This project is licensed under the ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg) license.

@@ -1,4 +1,4 @@
-# spartan   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# zz2   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
   ## Description                          
@@ -24,4 +24,6 @@
  Email: a
   
 ## License
-This project is licensed under the https://mit-license.org/ license.
+This project is licensed under the MIT License. 
+
+ For more information, go to https://mit-license.org/

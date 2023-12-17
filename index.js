@@ -2,7 +2,7 @@
 // DEPENDENCIES
 const inquirer = require('inquirer');
 const fs = require('fs');
-const {generateMarkdown} = require('./generateMarkdown');
+const {renderLicenseBadge, generateMarkdown} = require('./generateMarkdown');
 
 
 // TODO: Create an array of questions for user input

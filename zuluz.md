@@ -1,4 +1,4 @@
-# spartan   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# zuluz   ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 
   ## Description                          
@@ -24,4 +24,4 @@
  Email: a
   
 ## License
-This project is licensed under the https://mit-license.org/ license.
+This project is licensed under the https://www.gnu.org/licenses/gpl-3.0.en.html license.
