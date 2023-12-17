@@ -3,12 +3,14 @@
 function renderLicenseBadge(license) {
 
     switch (license) {
-      case 'MIT License':
+      case 'MIT License': 
           return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
-    
-    default:
-      return '';
-    
+      
+      case 'GNU General Public License (GPL)':
+          return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
+      
+      default:
+          return '';
     }
 
     
@@ -32,6 +34,7 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answer) {
+
   const licenseBadge = renderLicenseBadge(answer.license);
 
   return `# ${answer.title} ${licenseBadge}
