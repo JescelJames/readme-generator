@@ -1,24 +1,27 @@
-# zz1 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-  https://mit-license.org/
+# spartan   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
   ## Description                          
-  tes           
+  a           
              
   ## Installation
   a
              
   ## Usage
-  d
+  a
   
   ## Contributing 
-  g  
+  a  
   
   ## Tests 
-  d
+  a
   
   ## Questions
   For any additional questions, contact me at: 
   
  Github: https://github.com/a 
   
- Email: s
+ Email: a
+  
+## License
+This project is licensed under the https://mit-license.org/ license.

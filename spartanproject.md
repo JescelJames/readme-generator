@@ -1,27 +1,27 @@
-# aaaa 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Spartan Project   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 
   ## Description                          
-  aa           
+  Git Some!           
              
   ## Installation
-  aa
+  Install sword in the heart of my enemy.
              
   ## Usage
-  aa
+  Use my sword to attack.
   
   ## Contributing 
-  aa  
+  I have destroyed many infidels.  
   
   ## Tests 
-  aa
+  Test me if you dare.
   
   ## Questions
   For any additional questions, contact me at: 
   
- Github: https://github.com/aa 
+ Github: https://github.com/spartankicksbutt 
   
- Email: aa
+ Email: spartankicksbutt@bold.me
   
 ## License
 This project is licensed under the [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) license.

@@ -48,7 +48,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(answer) {
 
   const licenseBadge = renderLicenseBadge(answer.license);
-  const licenseLink = renderLicenseLink(answer.license)
+  const licenseLink = renderLicenseLink(answer.license);
+  
   return `# ${answer.title}   ${licenseBadge}
 
 
@@ -78,6 +79,6 @@ This project is licensed under the ${licenseLink} license.`
 };
 
 module.exports = {
-  // renderLicenseBadge,
+  renderLicenseBadge,
   generateMarkdown
 };
