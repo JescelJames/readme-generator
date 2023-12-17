@@ -1,19 +1,19 @@
-# jfjfjd
+# SPARTAN PROJECT
 
 ## Description                          
-ldkfjd           
+TO KILL BAD DUDES           
            
 ## Installation
-laksdjflksajdfkjsd
+INSTALL MY SHIELD AND ARMOR
            
 ## Usage
-l;kasjdflkjsdflkjsad
+TO PROTECT AND SERVE
 
 ## Contributing 
-jfkd  
+MANY...  
 
 ## Tests 
-;dldldld
+I'VE BEEN TO WAR
 
 ## Questions
 For any additional questions, contact me at: 
