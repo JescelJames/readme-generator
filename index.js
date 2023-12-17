@@ -66,20 +66,7 @@ function writeToFile(filename, data) {
 function init() {
   
         inquirer.prompt (questions)
-          // .prompt([
-           
-          //   {
-          //     type: 'input',
-          //     name: 'title',
-          //     message: 'What is the title of your project?',
-          //   },
-          //   {
-          //     type: 'input',
-          //     name: 'description',
-          //     message: 'Give the description of your project?',
-          //   },
-        
-          // ])
+
           .then((answer) => {
             const {
               title, 
