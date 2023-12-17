@@ -41,7 +41,7 @@ const questions = [
   {
     type: 'input',
     name: 'github',
-    message: 'What is your github name: ',
+    message: 'What is your github profile name: ',
   },
   {
     type: 'input',
@@ -64,10 +64,24 @@ function writeToFile(filename, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-inquirer.prompt (questions)
-
-        .then((answer) => {
-           const {
+  
+        inquirer.prompt (questions)
+          // .prompt([
+           
+          //   {
+          //     type: 'input',
+          //     name: 'title',
+          //     message: 'What is the title of your project?',
+          //   },
+          //   {
+          //     type: 'input',
+          //     name: 'description',
+          //     message: 'Give the description of your project?',
+          //   },
+        
+          // ])
+          .then((answer) => {
+            const {
               title, 
               description, 
               installation, 
@@ -75,14 +89,23 @@ inquirer.prompt (questions)
               contribution, 
               test,
               github,
+<<<<<<< HEAD
               email,
+=======
+              email, 
+>>>>>>> ad13181be24ff287bbc0f2b27e46997ddf3b3e8e
               license
             } = answer;
 
-console.log(answer);
+           console.log(answer);
+           templateREADME = 
 
+<<<<<<< HEAD
 templateREADME = 
 `# ${title} ${license}
+=======
+`# ${title}        ${license}
+>>>>>>> ad13181be24ff287bbc0f2b27e46997ddf3b3e8e
 
 ## Description                          
 ${description}           
@@ -103,11 +126,20 @@ ${test}
 For any additional questions, contact me at: 
 \n Github: https://github.com/${github} 
 \n Email: ${email}`
+          //  ## License
+           
+           
 
-//  ## Table of Contents   
-writeToFile('README.md', templateREADME);
-// console.log(templateREADME);
-      })
+           
+           
+
+           
+                  //  ## Table of Contents   
+
+                    
+                    writeToFile('README.md', templateREADME);
+                    // console.log(templateREADME);
+        })
         
 };
 
