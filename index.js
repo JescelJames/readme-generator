@@ -29,7 +29,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contribution',
+    name: 'contributing',
     message: 'Contribution....',
   },
   {

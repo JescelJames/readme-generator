@@ -73,6 +73,9 @@ function generateMarkdown(answer) {
 
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Test](#test)
+  - [Question](#question)
   
 
   ## Installation
@@ -82,12 +85,12 @@ function generateMarkdown(answer) {
   ${answer.usage}
   
   ## Contributing 
-  ${answer.contribution}  
+  ${answer.contributing}  
   
-  ## Tests 
+  ## Test 
   ${answer.test}
   
-  ## Questions
+  ## Question
   For any additional questions, contact me at: 
   \n Github: https://github.com/${answer.github} 
   \n Email: ${answer.email}
