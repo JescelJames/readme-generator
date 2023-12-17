@@ -72,6 +72,8 @@ function init() {
 
           .then((answer) => {
             const templateREADME = generateMarkdown(answer);
+
+            
             // const {
             //   title, 
             //   description, 
@@ -84,7 +86,7 @@ function init() {
             //   license
             // } = answer;
 
-           console.log(answer);
+    
 //            templateREADME = 
 
 // templateREADME = 
@@ -112,6 +114,7 @@ function init() {
 
                     const filename = `${answer.title.toLowerCase().split(' ').join('')}.md`;
                     writeToFile(filename, templateREADME);
+                    console.log(answer);
                     // console.log(templateREADME);
         })
         
