@@ -48,6 +48,12 @@ const questions = [
     name: 'email',
     message: 'What is your email: ',
   },
+  {
+    type: 'checkbox',
+    message: 'Which license do you have',
+    name: 'license',
+    choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache Licence 2.0', 'None'],
+  },
 
 ];
 
@@ -83,14 +89,23 @@ function init() {
               contribution, 
               test,
               github,
+<<<<<<< HEAD
+              email,
+=======
               email, 
+>>>>>>> ad13181be24ff287bbc0f2b27e46997ddf3b3e8e
               license
             } = answer;
 
            console.log(answer);
            templateREADME = 
 
+<<<<<<< HEAD
+templateREADME = 
+`# ${title} ${license}
+=======
 `# ${title}        ${license}
+>>>>>>> ad13181be24ff287bbc0f2b27e46997ddf3b3e8e
 
 ## Description                          
 ${description}           
