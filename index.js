@@ -4,7 +4,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const {renderLicenseBadge, generateMarkdown} = require('./generateMarkdown');
+const {generateMarkdown} = require('./generateMarkdown');
 
 
 
@@ -54,7 +54,7 @@ const questions = [
     type: 'list',
     message: 'Which license do you have',
     name: 'license',
-    choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache Licence 2.0', 'None'],
+    choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache License 2.0', 'None'],
   },
 
 ];
