@@ -9,11 +9,11 @@ This challenge helps the user create a readme.md file using command prompt
 ![password-generator](https://github.com/JescelJames/js-password-generator/assets/105643185/d3ec2426-1ec9-4366-a7d6-d43468e68510)
 
 
-- Challenge Link: https://jesceljames.github.io/js-password-generator/
+- Challenge Link: https://jesceljames.github.io/
 
-- My motivation:  To build a password generator that requires input from user such as amount of characters (must be from 8 - 128 characters) using lower case letters, upper case letters, numbers, and symbols. 
-- Why I took this challege: This is my first JavaScript challenge that required functions, ifs, while loop, prompt, confirm, getElementById, addEventListener, parseInit, math.floor, and math.random.
-- What the challenge solved:  The user can create a random password based on having the ability to select the length and type(letters, numbers, symbols) of characters.
+- My motivation:  To build a readme generator with user input from terminal.
+- Why I took this challege: To learn to create a file using prompts from terminal.
+- What the challenge solved:  The user can create a high quality readme.md file from prompts from terminal.  
 
 
 ### What I learned:  
@@ -36,7 +36,7 @@ This challenge helps the user create a readme.md file using command prompt
 
 ## Code Description
 
-The HTML and CSS in this code was prebuilt.  I made most of my updates and changes in the .js file. 
+This code can be accessed in terminal by running index.js file. type: node index.js in terminal and prompts will appear to create a readme file.
 
 
 ## Credits
