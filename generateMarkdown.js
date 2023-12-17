@@ -54,11 +54,7 @@ This project is licensed under the ${license}.
         
     
     
-    
-
-
-
-
+  
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answer) {
@@ -72,7 +68,13 @@ function generateMarkdown(answer) {
 
   ## Description                          
   ${answer.description}           
-             
+  
+  ## Table of Contents
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  
+
   ## Installation
   ${answer.installation}
              
