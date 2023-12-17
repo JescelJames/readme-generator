@@ -26,11 +26,11 @@ function renderLicenseLink(license) {
     case 'MIT License': 
         return 'https://mit-license.org/';
     
-    // case 'GNU General Public License (GPL)':
-    //     return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
+    case 'GNU General Public License (GPL)':
+        return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
     
-    // case 'Apache License 2.0': 
-    //     return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    case 'Apache License 2.0': 
+        return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
     
     default:
         return '';
@@ -49,8 +49,8 @@ function generateMarkdown(answer) {
 
   const licenseBadge = renderLicenseBadge(answer.license);
   const licenseLink = renderLicenseLink(answer.license)
-  return `# ${answer.title} ${licenseBadge}
-  ${licenseLink}
+  return `# ${answer.title}   ${licenseBadge}
+
 
   ## Description                          
   ${answer.description}           
@@ -70,7 +70,10 @@ function generateMarkdown(answer) {
   ## Questions
   For any additional questions, contact me at: 
   \n Github: https://github.com/${answer.github} 
-  \n Email: ${answer.email}`
+  \n Email: ${answer.email}
+  
+## License
+This project is licensed under the ${licenseLink} license.`
 ;
 };
 
