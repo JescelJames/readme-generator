@@ -1,4 +1,4 @@
-# zulu 
+# Zulu ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description                          
   test           
@@ -18,6 +18,6 @@
   ## Questions
   For any additional questions, contact me at: 
   
- Github: https://github.com/test 
+ Github: https://github.com/jesceljames 
   
- Email: test
+ Email: jesceljames@gmail.com
