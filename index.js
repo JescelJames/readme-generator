@@ -73,50 +73,12 @@ function init() {
           .then((answer) => {
             const templateREADME = generateMarkdown(answer);
 
-            
-            // const {
-            //   title, 
-            //   description, 
-            //   installation, 
-            //   usage, 
-            //   contribution, 
-            //   test,
-            //   github,
-            //   email,
-            //   license
-            // } = answer;
 
-    
-//            templateREADME = 
-
-// templateREADME = 
-// `# ${title} ${license}
-
-// ## Description                          
-// ${description}           
-           
-// ## Installation
-// ${installation}
-           
-// ## Usage
-// ${usage}
-
-// ## Contributing 
-// ${contribution}  
-
-// ## Tests 
-// ${test}
-
-// ## Questions
-// For any additional questions, contact me at: 
-// \n Github: https://github.com/${github} 
-// \n Email: ${email}`
-
-                    const filename = `${answer.title.toLowerCase().split(' ').join('')}.md`;
-                    writeToFile(filename, templateREADME);
-                    console.log(answer);
-                    // console.log(templateREADME);
-        })
+            const filename = `${answer.title.toLowerCase().split(' ').join('')}.md`;
+            writeToFile(filename, templateREADME);
+            console.log(answer);
+            // console.log(templateREADME);
+          })
         
 };
 
