@@ -16,47 +16,47 @@ const questions = [
     name: 'title',
     message: 'What is the title of your project?',
   },
-  {
-    type: 'input',
-    name: 'description',
-    message: 'Give the description of your project?',
-  },
-  {
-    type: 'input',
-    name: 'installation',
-    message: 'Provide installation instructions',
-  },
-  {
-    type: 'input',
-    name: 'usage',
-    message: 'Provide usage...',
-  },
-  {
-    type: 'input',
-    name: 'contribution',
-    message: 'Contribution....',
-  },
-  {
-    type: 'input',
-    name: 'test',
-    message: 'Test Instructions....',
-  },
-  {
-    type: 'input',
-    name: 'github',
-    message: 'What is your github profile name: ',
-  },
-  {
-    type: 'input',
-    name: 'email',
-    message: 'What is your email: ',
-  },
-  {
-    type: 'list',
-    message: 'Which license do you have',
-    name: 'license',
-    choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache Licence 2.0', 'None'],
-  },
+  // {
+  //   type: 'input',
+  //   name: 'description',
+  //   message: 'Give the description of your project?',
+  // },
+  // {
+  //   type: 'input',
+  //   name: 'installation',
+  //   message: 'Provide installation instructions',
+  // },
+  // {
+  //   type: 'input',
+  //   name: 'usage',
+  //   message: 'Provide usage...',
+  // },
+  // {
+  //   type: 'input',
+  //   name: 'contribution',
+  //   message: 'Contribution....',
+  // },
+  // {
+  //   type: 'input',
+  //   name: 'test',
+  //   message: 'Test Instructions....',
+  // },
+  // {
+  //   type: 'input',
+  //   name: 'github',
+  //   message: 'What is your github profile name: ',
+  // },
+  // {
+  //   type: 'input',
+  //   name: 'email',
+  //   message: 'What is your email: ',
+  // },
+  // {
+  //   type: 'list',
+  //   message: 'Which license do you have',
+  //   name: 'license',
+  //   choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache Licence 2.0', 'None'],
+  // },
 
 ];
 
@@ -72,43 +72,44 @@ function init() {
         inquirer.prompt (questions)
 
           .then((answer) => {
-            const {
-              title, 
-              description, 
-              installation, 
-              usage, 
-              contribution, 
-              test,
-              github,
-              email,
-              license
-            } = answer;
+            const templateREADME = generateMarkdown(answer);
+            // const {
+            //   title, 
+            //   description, 
+            //   installation, 
+            //   usage, 
+            //   contribution, 
+            //   test,
+            //   github,
+            //   email,
+            //   license
+            // } = answer;
 
            console.log(answer);
-           templateREADME = 
+//            templateREADME = 
 
-templateREADME = 
-`# ${title} ${license}
+// templateREADME = 
+// `# ${title} ${license}
 
-## Description                          
-${description}           
+// ## Description                          
+// ${description}           
            
-## Installation
-${installation}
+// ## Installation
+// ${installation}
            
-## Usage
-${usage}
+// ## Usage
+// ${usage}
 
-## Contributing 
-${contribution}  
+// ## Contributing 
+// ${contribution}  
 
-## Tests 
-${test}
+// ## Tests 
+// ${test}
 
-## Questions
-For any additional questions, contact me at: 
-\n Github: https://github.com/${github} 
-\n Email: ${email}`
+// ## Questions
+// For any additional questions, contact me at: 
+// \n Github: https://github.com/${github} 
+// \n Email: ${email}`
 
                     const filename = `${answer.title.toLowerCase().split(' ').join('')}.md`;
                     writeToFile(filename, templateREADME);
