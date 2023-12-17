@@ -17,9 +17,9 @@ This challenge helps the user create a readme.md file using command prompt
 
 ### What I learned:  
 
-1. That getElementById links to an id in HTML.
-2. That it's easier to code and cleaner if I divide the codes to sections: DEPENDENCIES, DATA, FUNCTIONS, USER INTERACTIONS, AND INITIALIZATION. 
-3. That functions is difficult to understand, but once I grasp the concept, the code seem to flow better.
+1. Make sure that branch is consistently add, commit, push on a branch.  
+2. Before exiting a branch, use git status to see if all has been add, commit, and pushed. 
+3. Be aware of what branch i'm working on.  I made multiple mistake working on the main branch.
 4. That the foor..loop can make me pull my hair out if my expression #2 is not called properly.  The console does not provide any error for this...
 5. That DOM is another beast of itself I need to do a lot more reading and experience.  
 6. That return in function provides value.
