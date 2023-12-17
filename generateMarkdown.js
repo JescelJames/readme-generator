@@ -74,7 +74,8 @@ function generateMarkdown(answer) {
   \n Email: ${answer.email}
   
 ## License
-This project is licensed under the ${licenseLink} license.`
+This project is licensed under the ${answer.license}. 
+\n For more information, go to ${licenseLink}`
 ;
 };
 
