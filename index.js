@@ -89,23 +89,15 @@ function init() {
               contribution, 
               test,
               github,
-<<<<<<< HEAD
-              email,
-=======
               email, 
->>>>>>> ad13181be24ff287bbc0f2b27e46997ddf3b3e8e
               license
             } = answer;
 
            console.log(answer);
            templateREADME = 
 
-<<<<<<< HEAD
 templateREADME = 
 `# ${title} ${license}
-=======
-`# ${title}        ${license}
->>>>>>> ad13181be24ff287bbc0f2b27e46997ddf3b3e8e
 
 ## Description                          
 ${description}           

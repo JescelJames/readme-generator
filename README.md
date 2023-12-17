@@ -1,38 +1,19 @@
-<<<<<<< HEAD
-# Spartan Project MIT License
+# test MIT License
 
 ## Description                          
-Destroy Bad Dudes.           
+test           
            
 ## Installation
-I will install blades through the heart of my opponent
+test
            
 ## Usage
-usage of their skulls, to feed to my dogs.
+test
 
 ## Contributing 
-I contribute to their death.  
+test  
 
 ## Tests 
-I will test their skills before I destroy them.
-=======
-# SPARTAN PROJECT
-
-## Description                          
-TO KILL BAD DUDES           
-           
-## Installation
-INSTALL MY SHIELD AND ARMOR
-           
-## Usage
-TO PROTECT AND SERVE
-
-## Contributing 
-MANY...  
-
-## Tests 
-I'VE BEEN TO WAR
->>>>>>> ad13181be24ff287bbc0f2b27e46997ddf3b3e8e
+test
 
 ## Questions
 For any additional questions, contact me at: 
