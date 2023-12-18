@@ -9,8 +9,9 @@ This challenge helps the user create a high quality README.md file using command
 ![readme-generator]
 
 
-- Deployed Link: https://jesceljames.github.io/
+- Deployed Link: https://jesceljames.github.io/readme-generator/
 - Repository Link: https://github.com/JescelJames/readme-generator 
+- Video Demonstration: https://drive.google.com/file/d/1X_GmO3aBhzZWAK0VPP-bsbG8-N5VEC5u/view
 
 - My motivation:  To build a readme generator with user input from terminal.
 - Why I took this challege: To learn to create a file using prompts from terminal.
@@ -39,6 +40,7 @@ This challenge helps the user create a high quality README.md file using command
 
 This code can be accessed in terminal by running index.js file. type: node index.js in terminal and prompts will appear to create a readme file.
 
+https://drive.google.com/file/d/1X_GmO3aBhzZWAK0VPP-bsbG8-N5VEC5u/view
 
 
 ## Installation Instructions

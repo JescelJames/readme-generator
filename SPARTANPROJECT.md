@@ -1,8 +1,8 @@
-# spartan project   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Spartan Project   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
   ## Description                          
-  lorem ipsum           
+  lorem ipsum dolor sit amet           
   
   ## Table of Contents
 
@@ -14,16 +14,16 @@
   
 
   ## Installation
-  lorem ipsum
+  consectur adipsing elit
              
   ## Usage
-  lorem impsun
+  sed doeisumod tempor
   
   ## Contributing 
-  lorem ipsum.  
+  inciduent eu lagore etjes  
   
   ## Test 
-  Lorem ipsum dolor sit amet, consectetur adipiscing el
+  dolore magna aliqua
   
   ## Question
   For any additional questions, contact me at: 
