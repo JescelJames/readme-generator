@@ -6,6 +6,9 @@ This challenge helps the user create a high quality README.md file using command
 
 ### This is my first Node js challenge: To help the user generate a Readme for a project. 
 
+![sample README preview](https://github.com/JescelJames/readme-generator/assets/105643185/fdbfbde7-30cd-4fe2-9502-5e467f6d7ded)
+
+
 ![sample README](https://github.com/JescelJames/readme-generator/assets/105643185/c8558848-018b-4cae-9e96-0d1e0d77fc20)
 
 
