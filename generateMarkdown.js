@@ -101,6 +101,5 @@ function generateMarkdown(answer) {
 };
 
 module.exports = {
-  renderLicenseBadge,
   generateMarkdown
 };

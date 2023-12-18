@@ -20,36 +20,36 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'Provide installation instructions',
+    message: 'Provide installation instructions.',
   },
   {
     type: 'input',
     name: 'usage',
-    message: 'Provide usage...',
+    message: 'Explain how to use the software, including command-line instructions, if applicable.',
   },
   {
     type: 'input',
     name: 'contributing',
-    message: 'Contribution....',
+    message: 'Provide guidelines for those who want to contribute to the project',
   },
   {
     type: 'input',
     name: 'test',
-    message: 'Test Instructions....',
+    message: 'Provide information on how to run tests for the software or codebase.',
   },
   {
     type: 'input',
     name: 'github',
-    message: 'What is your github profile name: ',
+    message: 'Provide your github profile name to contact you: ',
   },
   {
     type: 'input',
     name: 'email',
-    message: 'What is your email: ',
+    message: 'Provide your email to contact you: ',
   },
   {
     type: 'list',
-    message: 'Which license do you have',
+    message: 'Select the project license',
     name: 'license',
     choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache License 2.0', 'None'],
   },
@@ -66,7 +66,9 @@ function writeToFile(filename, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  
+        console.log('===================================================================')
+        console.log('The following prompts will create a README.md.\nThe title of the project will be the name of the Markdown document.');
+        console.log('===================================================================')
         inquirer.prompt (questions)
 
           .then((answer) => {
