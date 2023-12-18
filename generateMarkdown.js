@@ -60,7 +60,7 @@ This project is licensed under the ${license}.
 function generateMarkdown(answer) {
 
   const licenseBadge = renderLicenseBadge(answer.license);
-  // const licenseLink = renderLicenseLink(answer.license);
+
   const licenseSection = renderLicenseSection(answer.license);
   
   return `# ${answer.title}   ${licenseBadge}
@@ -96,9 +96,7 @@ function generateMarkdown(answer) {
   \n Email: ${answer.email}
   
   ${licenseSection}`
-// ## License
-// This project is licensed under the ${answer.license}. 
-// \n For more information, go to ${licenseLink}`
+
 ;
 };
 

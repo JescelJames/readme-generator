@@ -2,7 +2,7 @@
 // DEPENDENCIES
 const inquirer = require('inquirer');
 const fs = require('fs');
-const {renderLicenseBadge, generateMarkdown} = require('./generateMarkdown');
+const {generateMarkdown} = require('./generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
@@ -72,7 +72,7 @@ function init() {
           .then((answer) => {
             const templateREADME = generateMarkdown(answer);
 
-            const filename = `${answer.title.toLowerCase().split(' ').join('')}.md`;
+            const filename = `${answer.title.toUpperCase().split(' ').join('')}.md`;
                   writeToFile(filename, templateREADME);
       
             console.log(answer);
