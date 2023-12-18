@@ -96,7 +96,7 @@ https://www.youtube.com/watch?v=tkgmYIsflSU&ab_channel=ChillMusicLab
 ## Contact
 For any additional questions about this project, contact me at:
 - Email: jesceljames@gmail.com
-- Github: https://github.com/jesceljames@gmail.com 
+- Github: https://github.com/jesceljames
 
 
 
