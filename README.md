@@ -45,19 +45,13 @@ This code can be accessed in terminal by running index.js file. type: node index
 Prerequisites:  
  - Node.js. Download Node.js at https://nodejs.org/en
 
- - npmjs.com inquirer package:  https://www.npmjs.com/package/inquirer
+ - npmjs.com inquirer package:  https://www.npmjs.com/package//inquirer
 
- - 
-
-
-
-
+ 
 ## Usage
-Command-line instructions:
-- 
+1. Command-line instructions:
 
-
-
+        node index.js
 
 
 ## Credits
