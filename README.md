@@ -6,7 +6,7 @@ This challenge helps the user create a high quality README.md file using command
 
 ### This is my first Node js challenge: To help the user generate a Readme for a project. 
 
-![password-generator](https://github.com/JescelJames/js-password-generator/assets/105643185/d3ec2426-1ec9-4366-a7d6-d43468e68510)
+![readme-generator]
 
 
 - Deployed Link: https://jesceljames.github.io/
