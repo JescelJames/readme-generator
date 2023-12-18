@@ -59,10 +59,6 @@ https://www.npmjs.com/package/inquirer
 https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
 
-#### Music while coding:
-https://www.youtube.com/watch?v=tkgmYIsflSU&ab_channel=ChillMusicLab
-
-
 #### Medium Articles
 https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061
 
@@ -71,13 +67,14 @@ https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061
 https://stackoverflow.com/questions/67013842/trying-to-place-license-badge-within-readme-md-using-node-js-but-getting-error-a
 
 
-
+#### Music while coding:
+https://www.youtube.com/watch?v=tkgmYIsflSU&ab_channel=ChillMusicLab
 
 
 ## Contact
 For any additional questions about this project, contact me at:
-Email: jesceljames@gmail.com
-Github: https://github.com/jesceljames@gmail.com 
+- Email: jesceljames@gmail.com
+- Github: https://github.com/jesceljames@gmail.com 
 
 
 
