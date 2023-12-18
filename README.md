@@ -1,7 +1,7 @@
 # My Fourth Challenge: Create a Readme Generator
 
 ## Description
-This challenge helps the user create a readme.md file using command prompt
+This challenge helps the user create a high quality README.md file using command prompt.  The file created README.md will be changed to the project title's name. For example, the title of your project is Spartan Project, the file name of the project will be SPARTANPROJECT.md.
 
 
 ### This is my first Node js challenge: To help the user generate a Readme for a project. 
@@ -37,6 +37,27 @@ This challenge helps the user create a readme.md file using command prompt
 ## Code Description
 
 This code can be accessed in terminal by running index.js file. type: node index.js in terminal and prompts will appear to create a readme file.
+
+
+
+## Installation Instructions
+
+Prerequisites:  
+ - Node.js. Download Node.js at https://nodejs.org/en
+
+ - npmjs.com inquirer package:  https://www.npmjs.com/package/inquirer
+
+ - 
+
+
+
+
+## Usage
+Command-line instructions:
+- 
+
+
+
 
 
 ## Credits
