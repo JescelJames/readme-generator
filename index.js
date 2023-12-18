@@ -72,7 +72,7 @@ function init() {
           .then((answer) => {
             const templateREADME = generateMarkdown(answer);
 
-            const filename = `${answer.title.toLowerCase().split(' ').join('')}.md`;
+            const filename = `${answer.title.toUpperCase().split(' ').join('')}.md`;
                   writeToFile(filename, templateREADME);
       
             console.log(answer);
